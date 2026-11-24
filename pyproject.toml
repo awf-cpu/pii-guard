@@ -1,0 +1,10 @@
+[project]
+name = "pii-guard"
+version = "0.1.0"
+description = "Mask Brazilian personal data (CPF, CNPJ, CNJ case numbers, phone, e-mail, CEP) before text reaches an LLM"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
